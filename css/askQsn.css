@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLING INSTRUCTIONS */
+.displayHead{
+  background-color: antiquewhite;
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+
+
+.instructions{
+  
+  font-family: 'Montserrat',sans-serif;
+  margin-left: 35vw;
+  
+}
+
+.instructions h1{
+  text-align: center;
+}
+
+
+
+/* STYLING DASHBOARD */
+
+.dashboard{
+  margin-left: 10vw;
+}
+
+.dashboard h2{
+  font-family: 'Ubuntu',sans-serif;
+  text-align: center;
+}
+
+.dashboardTable{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.dashboardTable td{
+  text-align: center;
+  padding: 0.5%;
+}
+
+/* STYLING INPUT - FORM */
+
+.selectionTable{
+  margin-left: 35vw;
+}
+
+.input-Header{
+  font-family: 'Ubuntu',sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+
+#semester,#subject{
+  margin-top: 2vw;
+  font-size: medium;
+  margin-left:30px;
+}
+
+
+/* STYLING THE INPUT BOX */
+
+.inputBox{
+  margin-top: 2vh;
+}
+
+.qtext{
+  font-family: cursive;
+  font-size: medium;
+}
+
+.submitDiv{
+  margin: 3vh 0;
+  text-align: center;
+}
+
+.submitBtn{
+  font-size: large;
+  border-radius: 20%;
+  border-color: white;
+}
+
+
+/* SUBMIT-ANS STYLING */
+
+.answerInputBox{
+  margin-left: 15vw;
+}
+
+.checkAns{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

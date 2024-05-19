@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  padding: 20px 20px;
+  background: #17a2b8;
+}
+::selection{
+  background: rgba(23,162,184,0.3);
+}
+.wrapper{
+
+  position: relative;
+  width: 100%;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.1em;
+  font-weight: 600;
+  padding-bottom: 20px;
+  pointer-events: none;
+    letter-spacing: 1.5px;
+}
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #17a2b8;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+    letter-spacing: 1.2px;
+}
+.wrapper nav label:hover{
+  background: rgba(23,162,184,0.3);
+}
+#dash:checked ~ nav label.dash,
+#profile:checked ~ nav label.profile,
+#sett:checked ~ nav label.sett,
+#priv:checked ~ nav label.priv,
+  #signo:checked ~ nav label.signo{
+  color: #fff;
+}
+nav label i{
+  padding-right: 7px;
+}
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #17a2b8;
+  transition: all 0.3s ease;
+}
+input[type="radio"]{
+  display: none;
+}
+#profile:checked ~ nav .slider{
+  left: 20%;
+}
+#sett:checked ~ nav .slider{
+  left: 40%;
+}
+#priv:checked ~ nav .slider{
+  left: 60%;
+}
+#signo:checked ~ nav .slider{
+  left: 80%;
+}
+section .content{
+  display: none;
+  background: #fff;
+}
+#dash:checked ~ section .content-1,
+#profile:checked ~ section .content-2,
+#sett:checked ~ section .content-3,
+#priv:checked ~ section .content-4,
+#signo:checked ~ section .content-5{
+  display: block;
+}
+section .content .title{
+  font-size: 1.9em;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+  letter-spacing: 2px;
+}
+section .content {
+text-align: justify;
+}
+.cardox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-gap: 30px;
+}
+.card{
+  position: relative;
+  background: white;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 70px 25px rgba(0,0,0,0.08);
+}
+.number {
+  position: relative;
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #17a2b8;
+}
+.cardname{
+  color: black;
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+.iconbx{
+  font-size: 2.3em;
+  color: 	#787878;
+}
+
+.card:hover{
+  background: #17a2b8;
+}
+.card:hover .number,
+.card:hover .cardname,
+.card:hover .iconbx{
+  color: white;
+}
+.wrapper h2{
+  padding: 8px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-left: 1px;
+  margin-top: 17px;
+  margin-bottom: 10px;}
+
+  .wrapper h3{
+    padding: 8px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 1px;
+    margin-top: 17px;
+    margin-bottom: 10px;}
+
+.wrapper .input {
+  border:0;
+  border-bottom: 1.6px solid #17a2b8;
+  width: 36%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  padding: 8px 10px;
+  color: #555;
+  outline: none;
+
+}
+.wrapper .btn
+{
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 0;
+  color:white;
+  background: #17a2b8;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(119,119,119,.2);
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.wrapper .btn:hover{
+  background-color: white;
+  color : #17a2b8;
+  border-top: 2px solid #17a2b8;
+  border-bottom: 2px solid #17a2b8;
+  border-right: 2px solid #17a2b8;
+  border-left: 2px solid #17a2b8;
+  border-radius: 5px;
+}
+
+
+.wrapper .message{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   background-color: var(--red);
+   color:#FF3131;
+   font-size: 25px;
+   font-family: "Roboto",sans-serif;
+   text-transform: uppercase;
+
+}
+
+
+.wrapper a:link {
+  text-decoration: none;
+
+}
+.wrapper a{
+  color: black;
+}

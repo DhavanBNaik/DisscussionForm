@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+}
+
+        /* HEADER STYLING */
+
+.navbar{
+  background-color: antiquewhite;
+  height: 20vh;
+}
+
+nav{
+  display: flex;
+  justify-content:end;
+}
+
+nav a{
+  text-decoration: none;
+  margin: 10px 20px 0;
+}
+
+.question-Instruction{  
+  background-color: aqua;
+}
+
+
+.left-Bar{
+ 
+  margin: 1em;
+  background-color: antiquewhite;
+}
+
+main{
+  display: flex;
+
+}
+.question-InputBox{ 
+  display: flex;
+}
+
+.input-Header{
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+}
+
+.aside{
+  background-color: rgba(255, 127, 80, 0.313);
+  margin: 10px;
+}
+
+h1 .dashboard{
+  color: white;
+  font-weight: 400;
+}

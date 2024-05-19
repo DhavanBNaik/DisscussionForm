@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.instructions{
+  display: flex;
+  margin-left: 30vw;
+  font-family: 'Monteserrat',sans-serif;
+  text-align: left;
+}
+li{
+  margin: 1%;
+}
+table{
+  margin-left: 30vw;
+}
+.ssem{
+  font-family: 'Ubuntu',sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+
+#semester,#subject{
+  margin-top: 2vw;
+  font-size: medium;
+  margin-left:30px;
+}
+
+.question{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  background-color: #ef8172;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionClass{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: large;
+  height: 10vh;
+  color: white;
+}
+
+.qasked{
+  background-color: #ef8172;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: small;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+  /* STYLING FOR THE VIEW ANSWER BUTTON */
+.viewansbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  font-size: large;
+  color: white;
+}
+
+
+.answerlabel{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+form .qbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  font-size: large;
+  color: white;
+  margin-left: 60px;
+}
+
+/* STYLING FOR ANSWERED CLASS */
+
+.answers{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.answerClass{
+  background-color: green;text-align: center;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: large;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.answered{
+  background-color: green;text-align: center;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: small; 
+  text-align: right;
+  margin-bottom: 10px;
+  color: white;
+}
